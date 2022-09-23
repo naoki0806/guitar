@@ -1,0 +1,293 @@
+body{
+    max-width: 1080px;
+    
+    margin: 0 auto 0 auto;   
+    
+   
+}
+
+#bg{
+    background-color: rgb(229, 248, 248);
+}
+
+
+
+.back {
+background-color: rgb(0, 0, 0);
+height : 600px;
+border : 1px solid;
+}
+
+header {
+    display: flex;justify-content: space-between;
+    background-color: black;
+
+
+position: fixed;
+z-index: 999;
+top: 0;
+left: 180px;
+width: 1080px;
+
+box-sizing: border-box;
+height: 60px;
+
+}
+
+
+nav{
+    margin-top: 25px;
+}
+nav > a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size:20px;
+}
+
+nav > a:link{
+    color: rgb(224, 93, 93);
+
+}
+
+nav > a:visited {
+    color: aqua;
+}
+
+nav > a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
+nav > a:active {
+    color: yellow;
+}
+
+#main {
+   
+    margin-top: 30px;
+    position: relative;
+    height: 400px;
+    background-color: rgb(231, 64, 64);
+   
+}
+
+.main-message {
+    position: absolute;top: 0px; left: 0px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 476px 0;
+    max-width: 620px;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+  }
+    
+h1{
+    font-size: 64px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    
+
+}
+p{
+    font-size: 28px;
+    margin: 0 0 0 50px;
+}
+
+#live{
+    
+    border-radius: 476px 0 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .white{
+    background-color: white;
+    position: absolute;
+   top: 420px;
+   height: 30px;
+   width:   100%;
+  }
+#about{
+    background-color: rgb(255, 255, 255);
+}
+
+.h2{
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    position: relative;left:    89px;
+    position: relative;bottom:40px ;
+
+}
+
+.h3{
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+    font-size: 90px;
+    text-align: left;
+    margin: 0;
+    position: relative;top: 40px;
+
+}
+
+
+.p{
+    color: beige;
+}
+
+.p2{
+    color: rgb(0, 31, 235);
+    background-color: burlywood;
+}
+
+#about{
+    margin: 80px auto 80px auto;
+    width: 100%;
+}
+
+.about-tex{
+    width: 100%;
+    display: flex;
+}
+
+.right{
+    padding-right: 70px;
+    margin-right: 40px;
+    background-color: black;
+}
+
+#header{
+    margin-bottom: 50px;
+}
+
+#shop {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0%;
+    height: 600px;
+
+}
+.bigf{
+    font-size: 60px;
+    color: darkorange;
+}
+
+#g {
+    font-size: 100px;
+    background-color: rgb(72, 167, 142);
+}
+
+#shop-flex{
+    margin: 80px auto 80px auto;
+    width: 100%;
+    
+    
+}
+
+#shop {
+   
+   
+    margin: 80px 0 0px 0;
+    padding: 10px 40px 0px 40px;
+    background-color: rgb(240, 236, 231) ;
+    
+    height: 1200px;
+}
+
+
+#shop-flex > div{
+    display: flex; width: 1080px;
+   
+    
+}
+
+#basspic{
+    
+    margin-right: 40px;
+   
+   
+}
+#guitarpic{
+     margin-right: 20px;
+     text-align: right;
+   
+    
+}
+
+#b {
+    
+        font-size: 100px;
+        background-color: rgb(194, 159, 65);
+    
+}
+
+#shopleft {
+    width: 50%;
+  
+    
+  }
+
+  #shopright {
+    width: 50%;
+    margin-left: 40px;
+    height: 400px;
+
+    
+  }
+
+
+
+
+#guitar {
+    margin-top: 0%;
+}
+#bass {
+    margin-bottom: 50px;
+}
+
+.ulg{
+    background-color: rgb(191, 105, 105);
+    width: 50%;
+}
+
+.ulb {
+    background-color: rgb(124, 153, 95);
+    width: 50%;
+}
+
+.boder{
+    background-color: black;
+    height: 90px;
+
+}
+
+#amp {
+    margin: 0;
+}
+
+#a {
+background-color: darkred;
+font-size: 100px;
+
+}
+
+#amp-flex > div{
+    display: flex;
+}
+.amp-text1{
+    margin: 0px;
+}
+
+#shop-ampkistb {
+    margin-left: 170px;
+    margin-top: 90px;
+}
+
+#shop-amp {
+    background-color: rgb(211, 217, 217);
+}
